@@ -90,6 +90,7 @@ namespace eCommerce.Api.Repositorio
             } catch (Exception ex) 
             {
                 return null;
+
             } finally
             {
                 _connection.Close();
